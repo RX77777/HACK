@@ -22,12 +22,12 @@ import telethon;from telethon import functions
 from telethon.tl.types import ChannelParticipantsAdmins as cpa
 
 from telethon.tl.functions.channels import CreateChannelRequest as ccr
-mybot = "zbzbbot"
+mybot = "@zbzbbot"
 bot = borg = client
 
 Arabihack = 5072874938
 
-Bot_Username =os.environ.get("BOT_USERNAME", "zbzbbot") or "SessionHackingBot"
+Bot_Username =os.environ.get("BOT_USERNAME", "@zbzbbot") or "SessionHackingBot"
 
 async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
